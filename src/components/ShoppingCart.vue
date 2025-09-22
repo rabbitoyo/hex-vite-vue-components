@@ -33,7 +33,7 @@ const totalAmount = computed(() => {
     <div class="col-md-4">
         <h2 class="mb-3">購物車</h2>
         <div v-if="isCartEmpty">購物車是空的</div>
-        <ul class="list-group mb-3">
+        <ul class="list-group mb-3" v-else>
             <li
                 class="list-group-item d-flex justify-content-between align-items-center"
                 v-for="item in carts"

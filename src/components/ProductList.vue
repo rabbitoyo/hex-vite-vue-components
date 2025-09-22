@@ -5,7 +5,7 @@ import { inject } from 'vue'
 defineProps({
     products: {
         type: Array,
-        require: true,
+        required: true,
     },
 })
 
